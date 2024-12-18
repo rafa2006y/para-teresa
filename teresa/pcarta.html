@@ -1,0 +1,97 @@
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="html, css, javascript, etc" />
+  <meta name="description" content="para teresa" />
+  <meta name="author" content="rafa" />
+  <title>carta de navidad</title>
+
+    <!-- styles -->
+
+    <link rel="stylesheet" href="./estilos.css">
+
+
+</head>
+
+<body class="cuerpo">
+
+  <img src="rty.gif" alt="nieve cayendo" class="fondo">
+
+  <audio class="music" loop> 
+    
+    <source src="./fondo.mp3" type="audio/mp3" autoplay="true"> 
+    
+    Tu navegador no soporta la reproducción de audio. 
+  
+  </audio> 
+
+  <div class="contenedor1">
+
+    <h1 class="h12">Para la luz de mi vida, mi tesita:</h1>
+
+<p class="p">
+  Parece irreal que ya estemos en esta época del año. El tiempo ha volado y, aunque han sucedido muchas cosas, sin duda tú has sido lo mejor que me ha pasado...
+</p>
+
+<p class="p">
+  Dicen que la Navidad es sinónimo de alegría y amor; para mí, tú encarnas perfectamente estas palabras. Has traído tanta felicidad y amor a mi vida, llenándome de sentimientos que calientan mi corazón. Te has convertido en la luna de mi noche estrellada y en la calma que mi alma anhela; eres mi refugio y la mujer a la que siempre amaré.
+</p>
+
+<p class="p">
+  Desde que estamos juntos, has iluminado cada uno de mis días. Eres mi mayor alegría, mi mejor amiga y el amor de mi vida. El tiempo a tu lado me ha traído serenidad y un deseo constante de estar contigo. Cada momento compartido es un tesoro que guardo en lo más profundo de mi ser. Has hecho mis días más brillantes y mis noches más dulces. Incluso aquellas desveladas valieron completamente la pena si significaban pasar más tiempo contigo. Solo tú has podido despertar estos sentimientos en mí; cada segundo a tu lado es maravilloso, y nada me haría más feliz que compartir el resto de mi vida contigo.
+</p>
+
+<p class="p">
+  En esta Navidad, deseo para ti todo lo hermoso que tú has traído a mi vida. Que esta temporada esté colmada del mismo amor, paz y felicidad que tú me has regalado. Conocerte ha sido el mejor regalo, y mi mayor deseo es que sigamos juntos, creciendo y comprendiéndonos cada día más, porque te amo como jamás he amado a nadie.
+</p>
+
+<p class="p">
+  Gracias por ser quien eres y por llenar mi vida de tanto amor. Te amo más allá de lo que las palabras pueden expresar.
+</p>
+
+<p class="p">
+  ¡Feliz Navidad, mi princesa!
+</p>
+
+<div class="centrar">
+<img class="lv" src="lv.gif" alt="i love you">
+</div>
+<h1 class="h11">
+  Con todo mi amor,
+<br>
+  Alguien que te ama con todo su corazón
+  <span class="emoji">❤️</span>
+</h1>
+
+    
+  </div>
+
+
+<script> 
+
+let musica = document.querySelector(".music"); 
+
+function playAudio() { 
+  
+  musica.play().catch(error => { console.log('La reproducción automática fue bloqueada. Iniciando manualmente...'); }); 
+
+} 
+
+playAudio(); 
+
+document.body.addEventListener('click', () => { 
+  
+  if (musica.paused) { 
+    
+    playAudio(); 
+  
+} 
+});
+
+</script>
+
+</body>

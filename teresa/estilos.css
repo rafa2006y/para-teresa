@@ -1,0 +1,182 @@
+ /* fuentes */
+
+@font-face {
+
+    font-family: Edu Australia;
+    
+    src: url("./EduAUVICWANTPre-Bold.ttf");
+    
+}
+
+@font-face {
+    font-family: Edu Australia1;
+
+    src: url("./EduAUVICWANTPre-Medium.ttf");
+}
+
+@font-face {
+    font-family: Edu Australia2;
+
+    src: url("./EduAUVICWANTPre-Regular.ttf");
+}
+
+@font-face {
+    font-family: Edu Australia3;
+
+    src: url("./EduAUVICWANTPre-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Edu Australia4;
+
+    src: url("./EduAUVICWANTPre-VariableFont_wght.ttf");
+}
+
+ /* diseño html telefonos */
+
+.cuerpo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255); 
+    position: relative; 
+    top: 25%; 
+    border: 6px solid blue; 
+    padding: 0%; box-shadow: 8px 8px 5px #444; 
+    border-radius: 15px;
+}
+
+.contenedor1 { 
+    position: relative; 
+    top: 5%;
+    background-color: rgb(255, 255, 255); 
+    border: 29px solid transparent;
+    -moz-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CGAyIuH7UED1c3EyrfcsQ0W4pYWT_eCjOPa28tikB-kBkAjKcA) 29 round;
+    -webkit-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CGAyIuH7UED1c3EyrfcsQ0W4pYWT_eCjOPa28tikB-kBkAjKcA) 29 round;
+    -o-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CGAyIuH7UED1c3EyrfcsQ0W4pYWT_eCjOPa28tikB-kBkAjKcA) 29 round;
+    border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CGAyIuH7UED1c3EyrfcsQ0W4pYWT_eCjOPa28tikB-kBkAjKcA) 29 round; 
+ }
+
+.h1 {
+    text-align: center;
+    font-family: Edu Australia3;
+    font-size: large;
+}
+
+.h11 {
+    text-align: center;
+    font-family: Edu Australia3;
+    font-size: large;
+    padding: 0%;
+    margin: 0%;
+}
+
+.h12 {
+    text-align: center;
+    font-family: Edu Australia3;
+    font-size: large;
+    padding: 0%;
+}
+
+.p {
+    font-family: Edu Australia2;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.lv {
+    width: 60%;
+}
+
+/* animaciones */
+
+.flechas {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 40%;
+}
+
+.boton {
+    background: none; 
+    border: none; 
+    padding: 0%; 
+    margin-left: 42%; 
+    margin-right: 42%; 
+    margin-bottom: 3%; 
+    margin-top: 3%;
+}
+
+.carta {
+    width: 100%; 
+    height: 7%;
+}
+
+.emoji {
+    display: inline-block;
+    animation: 0.5s infinite alternate latido ;
+}
+
+@keyframes latido {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}
+
+ /* adaptaciones para version de dispositivos pantalla ancha  */
+
+ @media (min-width: 450px) {
+
+    .h1 {
+        text-align: center;
+        font-family: Edu Australia3;
+        font-size: x-large;
+    }
+ }
+
+ @media (min-width: 700px) {
+
+    .cuerpo {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .h1 {
+        text-align: center;
+        font-family: Edu Australia3;
+        font-size: x-large;
+    }
+ }
+
+ /* adaptaciones para version de computadora  */
+
+@media (min-width: 980px) {
+
+    .cuerpo {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .h1 {
+        text-align: center;
+        font-family: Edu Australia3;
+        font-size: xx-large;
+}
+}
